@@ -1,0 +1,694 @@
+@media only screen and (max-width: 1199px) {
+
+.nav-bar {
+    margin: 0;
+    transform: translateX(100%);
+    right: -260px;
+    width: 280px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: fixed;
+    transition: all 0.3s;
+    background: #fff;
+    height: 100%;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding-top: 50px;
+    padding-left: 0;
+    z-index: 1111;
+}
+
+.hamburger-menu div {
+    width: 24px;
+    height: 2px;
+    display: block;
+    margin: 6px 0;
+    background: black;
+    border-radius: 13px;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.hamburger-menu {
+    position: absolute;
+    right: 15px;
+    top: 35px;
+    transform: translateY(-50%);
+}
+
+.nav-active .nav-bar{
+    opacity: 1;
+    visibility: visible;
+    padding-right: 0;
+    right: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start !important;
+     display: block !important;
+    overflow-y: auto;
+    transform: translateX(0%);
+}
+
+.menu-overlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+
+ul.nav-item{
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-top: 30px;
+}
+
+ul.nav-item li + li{
+  padding-left :0 ;
+}
+
+ul.nav-item li a{
+    padding: 15px 20px;
+    display: block;
+    width: 100%;
+    /* text-align: left; */
+    min-height: auto;
+    /* line-height: initial; */
+    /* display: flex; */
+    justify-content: space-between;
+
+}
+
+.nav-active .hamburger-menu {
+    z-index: 11111;
+    position: fixed;
+    right: 15px;
+    top: 35px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.hamburger-menu{
+  cursor: pointer;
+  position: absolute;
+  top: 37px;
+}
+
+.hamburger-menu.active #one {
+    -webkit-transform: translateY(9px) rotate(-135deg);
+    -ms-transform: translateY(9px) rotate(-135deg);
+    transform: translateY(9px) rotate(-135deg);
+    -webkit-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+.hamburger-menu.active #two {
+    opacity: 0;
+    -webkit-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+.hamburger-menu.active #three {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    -ms-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+    -webkit-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+}
+
+@media only screen and (min-width: 1199px) {
+  
+.hamburger-menu {
+    display: none;
+}
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    section.banner-section .col-lg-7 .banner-img {
+    margin-top: 63px;
+    margin-left: 34px;
+}
+
+.banner-title h1{
+  font-size: 40px !important;
+}
+
+.para {
+    max-width: 337px;
+    color: var(--para-color);
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+section.banner-section {
+    /* height: 444px; */
+    /* width: 100%; */]
+    background-position-y: bottom;
+    background-size: 59.5%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+ .top-footer .col-lg-3 + .col-lg-3 .item-wrap {
+    padding: 35px 0 0px 0;
+}
+
+.top-footer {
+    padding: 8vh 0;
+}
+
+section.contact-us h2.title{
+  font-size: 22px;
+}
+
+section.contact-us .para{
+  font-size: 14px;
+}
+
+.contact-us-btn a{
+  font-size: 15px;
+  padding: 8px 20px;
+}
+
+.top-footer .col-lg-3 .follow input{
+  width: 80%;
+}
+
+ul.food-list li {
+    margin-top: 30px;
+}
+
+.title{
+  font-size: 30px;
+}
+
+section.menu .section-title span{
+  width: 152px;
+}
+
+section.menu .section-title span em{
+  width: 70px;
+}
+
+.menu-display{
+  padding-top: 30px;
+}
+
+h3.food-title{
+  font-size: 20px;
+}
+
+ul.food-list span{
+  font-size: 15px;
+}
+
+ul.food-list span.rate{
+  font-size: 21px;
+  top: 17px;
+}
+
+.para{
+  font-size: 12px;
+  max-width: 270px;
+  margin-top: 15px;
+}
+
+.col-lg-12.second .col-lg-6 .item-wrap{
+  margin-left: 0;
+}
+
+.about-us-img-1 img {
+    height: 200px;
+}
+
+.about-us-img-2 img {
+    height: 200px;
+}
+
+.about-us-img-2{
+  margin-left: -25px;
+}
+
+section.about-us p{
+  max-width: 300px;
+}
+
+footer p.des{
+  max-width: 260px;
+}
+
+section.banner-section .col-lg-7 .banner-img img {
+    height: 255px;
+}
+
+section.banner-section{
+      background-size: 58%;
+      height: 324px;
+}
+
+.banner-title h1{
+  font-size: 27px !important;
+}
+
+section.banner-section .col-lg-5 img {
+    height: 57px;
+}
+
+.banner-title {
+    margin-top: 100px;
+}
+
+section.banner-section .btn{
+  display: none;
+}
+
+section.banner-section .col-lg-7 .banner-img{
+  margin-top: 50px;
+  margin-left: 0;
+}
+
+}
+
+@media only screen and (max-width: 575px) {
+  
+  .site-logo{
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-bottom: 15px;
+    background: #fff;
+    justify-content: left;
+  }
+
+  .hamburger-menu{
+    top: -275px;
+    /* left: 17px; */
+  }
+
+  section.banner-section{
+    background-color: #f7cae2;
+    background-image: none;
+    background-size: 100%;
+    height: 360px;
+  }
+
+  .banner-title h1{
+        font-size: 30px !important;
+  }
+
+  .para{
+    font-size: 11px;
+    max-width: 229px;
+    margin-top: 15px;
+  }
+
+  .banner-cover{
+    position: relative;
+  }
+
+  section.banner-section .col-lg-7 .banner-img img{
+    height: 212px;
+  }
+
+  section.banner-section .col-lg-7 .banner-img{
+    position: absolute;
+    top: -205px;
+    right: 26px;
+    padding: 0;
+    margin: 0;
+  }
+
+  h2.about-us-title{
+    font-size: 80.287px;
+  }
+
+  .abt-title{
+    margin-bottom: 35px;
+  }
+
+  .btn {
+    width: 110px;
+    margin-top: 15px;
+    height: 28px;
+    padding: 1px 0;
+}
+
+.sub-title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn a{
+  font-size: 12px;
+}
+
+section.about-us .col-lg-12.second .content-wrapper :nth-child(1) {
+    order: 2;
+}
+
+.about-us-img-1, .about-us-img-2{
+  text-align: center;
+    margin-top: 40px;
+}
+
+.about-us .col-lg-12:first-child {
+    margin-bottom: 50px;
+}
+
+section.menu .menu-display .col-lg-6{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+section.menu .menu-display .row{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.nav-pills li.nav-item {
+    margin-right: 35px;
+}
+
+.nav-pills .nav-link.active{
+  border-radius: 0;
+  border: 0;
+  padding: 0;
+}
+
+.menu-nav .nav button{
+  font-size: 14px;
+}
+
+.nav-link{
+  padding: 0;
+}
+
+section.menu .section-title span{
+  padding-bottom: 20px;
+}
+
+.menu-display{
+  padding-top: 0;
+}
+
+h3.food-title{
+  font-size: 18px;
+  margin-bottom: 0px;
+
+}
+
+ul.food-list li{
+  margin-top: 25px;
+  padding-bottom: 15px;
+
+}
+
+ul.food-list li + li {
+    margin-top: 20px;
+}
+
+ul.food-list span {
+    font-size: 13px;
+}
+
+ul.food-list span.rate {
+    font-size: 18px;
+    top: 16px;
+}
+
+.menu-nav .col-lg-12.btn {
+    width: 110px;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+
+section.contact-us .col-lg-7 .item-wrap {
+  margin-left: 0;
+}
+
+.contact-us-btn {
+    margin-top: 32px;
+}
+
+.bottom-footer .item-wrap{
+  text-align: center;
+}
+
+.bottom-footer p{
+  margin-left: 11px;
+  font-size: 13px;
+}
+.privacy-end ul{
+  justify-content: center;
+}
+
+.privacy-end ul li a{
+  font-size: 13px;
+}
+.nav-active .hamburger-menu{
+  background: transparent;
+}
+
+.nav-active .nav-bar{
+  /* left: 0; */
+}
+
+.nav-bar{/* left: -260px; */}
+
+
+
+section.contact-us .col-lg-7 .item-wrap {
+    margin-left: 60px;
+}
+
+.top-footer .col-lg-3 .follow .btn {
+    width: 30%;
+    height: 30px;
+}
+
+.top-footer .col-lg-3 .follow .btn a {
+  font-size: 16px;
+}
+
+.site-logo a {
+    padding-left: 15px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 420px) {
+  
+  .site-logo{
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-bottom: 15px;
+    background: #fff;
+    justify-content: left;
+  }
+
+  .hamburger-menu{
+    top: -253px;
+    /* left: 17px; */
+  }
+
+  section.banner-section{
+    background-color: #f7cae2;
+    background-image: none;
+    background-size: 100%;
+    height: 335px;
+  }
+
+  .banner-title h1{
+        font-size: 18px !important;
+  }
+
+  .para{
+    font-size: 11px;
+    max-width: 208px;
+    margin-top: 15px;
+  }
+
+  .banner-cover{
+    position: relative;
+  }
+
+  section.banner-section .col-lg-7 .banner-img img{
+    height: 185px;
+  }
+
+  section.banner-section .col-lg-7 .banner-img{
+    position: absolute;
+    top: -168px;
+    right: 9px;
+    padding: 0 ;
+    margin: 0;
+  }
+
+  h2.about-us-title{
+    font-size: 58.287px;
+  }
+
+  .abt-title{
+    margin-bottom: 35px;
+  }
+
+  .btn {
+    width: 110px;
+    margin-top: 15px;
+    height: 28px;
+    padding: 1px 0;
+}
+
+.sub-title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn a{
+  font-size: 12px;
+}
+
+section.about-us .col-lg-12.second .content-wrapper :nth-child(1) {
+    order: 2;
+}
+
+.about-us-img-1, .about-us-img-2{
+  text-align: center;
+    margin-top: 40px;
+}
+
+.about-us .col-lg-12:first-child {
+    margin-bottom: 50px;
+}
+
+section.menu .menu-display .col-lg-6{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+section.menu .menu-display .row{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.nav-pills li.nav-item {
+    margin-right: 20px;
+}
+
+.nav-pills .nav-link.active{
+  border-radius: 0;
+  border: 0;
+  padding: 0;
+}
+
+.menu-nav .nav button{
+  font-size: 14px;
+}
+
+.nav-link{
+  padding: 0;
+}
+
+section.menu .section-title span{
+  padding-bottom: 20px;
+}
+
+.menu-display{
+  padding-top: 0;
+}
+
+h3.food-title{
+  font-size: 18px;
+  margin-bottom: 0px;
+
+}
+
+ul.food-list li{
+  margin-top: 25px;
+  padding-bottom: 15px;
+
+}
+
+ul.food-list li + li {
+    margin-top: 20px;
+}
+
+ul.food-list span {
+    font-size: 13px;
+}
+
+ul.food-list span.rate {
+    font-size: 18px;
+    top: 16px;
+}
+
+.menu-nav .col-lg-12.btn {
+    width: 110px;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+
+section.contact-us .col-lg-7 .item-wrap {
+  margin-left: 0;
+}
+
+.contact-us-btn {
+    margin-top: 25px;
+}
+
+.bottom-footer .item-wrap{
+  text-align: center;
+}
+
+.bottom-footer p{
+  margin-left: 11px;
+  font-size: 13px;
+}
+.privacy-end ul{
+  justify-content: center;
+}
+
+.privacy-end ul li a{
+  font-size: 13px;
+}
+.nav-active .hamburger-menu{
+  background: transparent;
+}
+
+.nav-active .nav-bar{
+  /* left: 0; */
+}
+
+.nav-bar{/* left: -260px; */}
+
+}
+
